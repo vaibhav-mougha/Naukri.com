@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs - Recruitment - Job Search -  Employment - Job Vacancies - Naukri.com</title>
+    <style>
+        #navbar{
+            position: fixed;
+            width: 80%;
+            background-color: white;
+            left: 150px;
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;  
+        }
+
+        #middleOfNav{
+            display: flex;
+            font-size: 22px;
+            width: 60%;
+            justify-content: space-around;
+            color: grey;
+        }
+
+        #leftNav{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #rightNav{
+            width: 35%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #btn{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        }
+
+        #btn>button:nth-child(1){
+            color: #457EFF;
+            border-color: #457EFF;
+            background-color: white;
+            font-size: 18px;
+            border-radius: 18px;
+            padding:0px 15px;
+        }
+
+        #log{
+            color: #457EFF;
+        }
+
+        div>button:nth-child(2){
+            color: white;
+            border-color: #FF7555;
+            background-color: #FF7555;
+            font-size: 20px;
+            border-radius: 18px;
+            padding:0px 15px;
+        }
+
+        #reg{
+            color: white;
+        }
+
+        #forEmp{
+            font-size: 18px;
+            border-color: white;
+            background-color: white;
+        }
+
+        #forEmp:hover{
+            text-decoration: underline;
+            text-decoration-color: #FF7555;
+        }
+
+        #middleOfNav>div:nth-child(1):hover,#middleOfNav>div:nth-child(2):hover,#middleOfNav>div:nth-child(3):hover,#middleOfNav>div:nth-child(4):hover{
+            color:black;
+            text-decoration: underline;
+            text-decoration-color: #FF7555;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div id="leftNav">
+            <div>
+               <a href="navbar.html"> <img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png" alt=""></a>
+            </div>
+            <div id="middleOfNav">
+                <div>Job</div>
+                <div>Companies</div>
+                <div>Services</div>
+                <div>Resources</div>
+            </div>
+        </div>
+        <div id="rightNav">
+            <div id="btn">
+                <button><a id="log" href="login.html">Login</a></button>
+                <button><a id="reg" href="register.html">Register</a></button>
+            </div>
+            <div>
+                <select name="" id="forEmp">
+                    <option value="">For employers</option>
+                    <option value="">Buy Online</option>
+                    <option value="">Our hiring solutions</option>
+                    <option value="">Employer Login</option>
+                </select>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>
