@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobs - Recruitment - Job Search -  Employment - Job Vacancies - Naukri.com</title>
     <style>
+        /* day - 2  */
         #navbar{
             position: fixed;
-            width: 80%;
+            width: 90%;
             background-color: white;
-            left: 150px;
-            margin-top: 15px;
+            top: 0px;
+            left: 40px;
             display: flex;
             justify-content: space-between;  
+            /* border: 1px solid black; */
+            padding: 40px;
         }
 
         #middleOfNav{
@@ -85,10 +88,212 @@
             text-decoration-color: #FF7555;
         }
 
-        
-    </style>
+        /* day -3  */
+
+        #find{
+            margin: auto;
+            margin-top: 140px;
+            width: 40%;
+            text-align: center;
+            /* border: 1px solid red; */
+        }
+
+        #find>h1{
+            font-size: 40px;
+        }
+
+        #find>p{
+            margin-top: -20px;
+            font-size: 18px;
+            color: gray;
+        }
+
+        #search{
+            /* border: 1px solid black; */
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            height: 60px;
+            width: 70%;
+            margin: auto;
+            margin-top: 50px;
+            border-radius: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #fir{
+          display: flex;
+          justify-content: space-around;
+          width: 80%;
+          /* border: 1px solid black; */
+        }
+
+        #fir>input{
+            font-size: 16px;
+            padding-top: 7px;
+            width: 33%;
+            height: 40px;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            border-color: white;
+        }
+
+        #serbtn{
+            color: white;
+            background-color: #457EFF;
+            border-color: #457EFF;
+            font-size: 25px;
+            border-radius: 30px;
+            padding: 10px 20px;
+            margin-top: 5px;
+            margin-right: 8px;
+        }
+
+        #regis{
+            /* border: 1px solid black; */
+            width: 50%;
+            height:90px;
+            margin: auto;
+            margin-top: 40px;
+            display:flex;
+            justify-content: space-around;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            padding: 0px 30px;
+        }
+
+        #one{
+            margin-top: 25px;
+        }
+
+        #two>p:nth-child(1){
+            font-size: 20px;
+            font-weight: bolder;
+        }
+
+        #two>p:nth-child(2){
+            margin-top: -15px;
+        }
+
+        #regisbtn{
+            font-size: 22px;
+            border-radius: 35px;
+            padding: 10px 12px;
+            color: white;
+            background-color: #FF7555;
+            border-color: #FF7555;
+            margin-top: 18px;
+        }
+
+       .heading{
+        width: 50%;
+        /* border: 1px solid black; */
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+       }
+
+       #trending{
+        width: 70%;
+        height: 160px;
+        margin: auto;
+        margin-top: 40px;
+        /* border: 1px solid black; */
+       }
+
+       #trending>button{
+        position: absolute;
+        top:620px;
+        font-size: 30px;
+        padding: 5px 15px;
+        border-radius: 35px;
+        border: none;
+        color: gray;
+        background-color: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+       }
+
+       #left-btn{
+        left: 170px;
+       }
+
+       #right-btn{
+        right:185px
+       }
+
+       #trend{
+        width: 100%;
+        height: 160px;
+        margin: auto;
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+       }
+
+       #trend>div{
+        /* border: 1px solid black; */
+        text-align: center;
+        width: 90%;
+        padding-top: 20px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       }
+
+       #trend>div>p{
+        margin-top:-18px;
+        color: gray;
+       }
+
+       #explore{
+        width: 70%;
+        height: 160px;
+        margin: auto;
+        margin-top: 40px;
+        /* border: 1px solid black; */
+       }
+
+       #explore>button{
+        position: absolute;
+        top:900px;
+        font-size: 30px;
+        padding: 5px 15px;
+        border-radius: 35px;
+        border: none;
+        color: gray;
+        background-color: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+       }
+
+       #exp{
+        width: 100%;
+        height: 160px;
+        margin: auto;
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 0px 5px;
+       }
+
+       #exp>div{
+        /* border: 1px solid black; */
+        text-align: center;
+        width: 92%;
+        padding-top: 10px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       }
+
+       #exp>div>div{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 20px;
+       }
+
+       #exp>div>div>img{
+        width: 20%;
+       }
+
+</style>
 </head>
 <body>
+    <!-- day -2  -->
     <div id="navbar">
         <div id="leftNav">
             <div>
@@ -117,7 +322,179 @@
         </div>
     </div>
 
-    <p>test</p>
-  
+    <!-- day -3  -->
+
+    <div id="find">
+        <h1>Find your dream job now</h1>
+        <p>5 lakh+ jobs for you to explore</p>
+    </div>
+
+    <div id="search">
+        <div id="fir">
+            <input type="text" placeholder="Enter skills / designations / companies">
+            <select name="" id="">
+                <option value="">Select Expiernce</option>
+                <option value="">1 year</option>
+                <option value="">2 year</option>
+                <option value="">3 year</option>
+                <option value="">4 year</option>
+                <option value="">5 year</option>
+
+            </select>
+            <input type="text" placeholder="Enter Location">
+        </div>
+        <div>
+            <button id="serbtn">Search</button>
+        </div>
+    </div>
+
+    <div id="regis">
+        <div id="one">
+            <img src="https://static.naukimg.com/s/0/0/i/homepage-register/accenture-logo.png" alt=""><img src="https://static.naukimg.com/s/0/0/i/homepage-register/myntra-logo.png" alt="">
+        </div>
+        <div id="two">
+            <p>Get contacted by top companies hiring on Naukri!</p>
+            <p> Your chance to build that dream career is here</p>
+        </div>
+        <div>
+            <button id="regisbtn">Register now</button>
+        </div>
+    </div>
+
+    <h1 class="heading">Trending on Naukri today</h1>
+    <div id="trending">
+        <button id="left-btn"><</button>
+        <button id="right-btn">></button>
+        <div id="trend"></div>
+    </div>
+
+    <h1 class="heading">Explore top companies hiring now</h1>
+    <div id="explore">
+        <button id="left-btn"><</button>
+        <button id="right-btn">></button>
+        <div id="exp"></div>
+    </div>
+
+   
 </body>
 </html>
+
+<!-- day -3  -->
+
+<script>
+    let trendingData=[
+        {
+            img:"https://static.naukimg.com/s/0/0/i/trending-naukri/remote.svg",
+            h3:"Remote >",
+            p:"5.9K+ Jobs",
+        },
+
+        {
+            img:"https://static.naukimg.com/s/0/0/i/trending-naukri/mnc.svg",
+            h3:"MNC >",
+            p:"67.4K+ Jobs",
+        },
+
+        {
+            img:"https://static.naukimg.com/s/0/0/i/trending-naukri/engineering.svg",
+            h3:"Engineering >",
+            p:"2.9K+ Jobs",
+        },
+
+        {
+            img:"https://static.naukimg.com/s/0/0/i/trending-naukri/supplychain.svg",
+            h3:"Supply Chain >",
+            p:"1.1K+ Jobs",
+        },
+
+        {
+            img:"https://static.naukimg.com/s/0/0/i/trending-naukri/software.svg",
+            h3:"Software & IT >",
+            p:"26.2K+ Jobs",
+        },
+
+    ]
+     
+    trendingData.map(function (ele){
+        let div=document.createElement("div");
+        let image=document.createElement("img");
+        let h3=document.createElement("h3");
+        let p=document.createElement("p");
+
+        image.setAttribute("src",ele.img)
+        h3.innerText=ele.h3;
+        p.innerText=ele.p;
+
+        div.append(image,h3,p);
+
+        document.querySelector("#trend").append(div);
+    })
+
+</script>
+
+<script>
+    let exploreData=[
+        {
+            h3:"MNCs >",
+            p:"1.3K+ are actively hiring",
+            img1:"https://img.naukimg.com/logo_images/groups/v1/360296.gif",
+            img2:"https://img.naukimg.com/logo_images/groups/v1/340662.gif",
+            img3:"https://img.naukimg.com/logo_images/groups/v1/709704.gif",
+            img4:"https://img.naukimg.com/logo_images/groups/v1/62866.gif",
+        },
+
+        {
+            h3:"Fortune 500 >",
+            p:"85 are actively hiring",
+            img1:"https://img.naukimg.com/logo_images/groups/v1/4579363.gif",
+            img2:"https://img.naukimg.com/logo_images/groups/v1/5320.gif",
+            img3:"https://img.naukimg.com/logo_images/groups/v1/29798.gif",
+            img4:"https://img.naukimg.com/logo_images/groups/v1/1718706.gif",
+        },
+
+        {
+            h3:"Unicorns >",
+            p:"69 are actively hiring",
+            img1:"https://img.naukimg.com/logo_images/groups/v1/4622851.gif",
+            img2:"https://img.naukimg.com/logo_images/groups/v1/1194340.gif",
+            img3:"https://img.naukimg.com/logo_images/groups/v1/1221608.gif",
+            img4:"https://img.naukimg.com/logo_images/groups/v1/1366318.gif",
+        },
+
+        {
+            h3:"Startups >",
+            p:"182 are actively hiring",
+            img1:"https://img.naukimg.com/logo_images/groups/v1/1285014.gif",
+            img2:"https://img.naukimg.com/logo_images/groups/v1/558162.gif",
+            img3:"https://img.naukimg.com/logo_images/groups/v1/1694498.gif",
+            img4:"https://img.naukimg.com/logo_images/groups/v1/1640596.gif",
+        },
+    ]
+     
+    exploreData.map(function (ele){
+        let div=document.createElement("div");
+        let h3=document.createElement("h3");
+        let p=document.createElement("p");
+        let div1=document.createElement("div");
+        let image1=document.createElement("img");
+        let image2=document.createElement("img");
+        let image3=document.createElement("img");
+        let image4=document.createElement("img");
+
+        h3.innerText=ele.h3;
+        p.innerText=ele.p;
+        image1.setAttribute("src",ele.img1)
+        image2.setAttribute("src",ele.img2)
+        image3.setAttribute("src",ele.img3)
+        image4.setAttribute("src",ele.img4)
+
+        div1.append(image1,image2,image3,image4)
+        div.append(h3,p,div1);
+
+        document.querySelector("#exp").append(div);
+     })
+</script>
+
+
+
+
