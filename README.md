@@ -54,8 +54,8 @@ naukri.com  is a recruitment platform that provides hiring-related services to c
 
 <br/>
 
-## Footer Page:
-![footer](https://user-images.githubusercontent.com/107460451/205793482-0aa26c53-6f2a-4201-a4e9-9a9dd113cbec.jpg)
+## Footer Section:
+![FFooter](https://user-images.githubusercontent.com/107460451/205799247-5171e3e4-fe43-4c2d-b068-376eabe28f9c.jpg)
 
 <br/>
 <h4 align="center">💻 Tech Stack</h4>
