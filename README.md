@@ -1,5 +1,4 @@
-# questionable-milk-2896
-## Welcome to naukri.com
+# Welcome to naukri.com
 naukri.com  is a recruitment platform that provides hiring-related services to corporates/recruiters, and job seekers.
 
 ## [Deployed URL]( https://moonlit-sunburst-285db4.netlify.app/)
